@@ -20,7 +20,7 @@ ALTER TABLE Orders
 RENAME TO sales_orders;
 
 -- 4. Insert 10 rows into the sales_orders table
-INSERT INTO sales_orders (Customer_name, Product_Category, Ordered_item, Contact_No, order_quantity) 
+INSERT INTO sales_orders (Customer_name, Product_Category, Ordered_item, Contact_No, order_quantity1) 
 VALUES 
 ('John Doe', 'Electronics', 'Smartphone', '1234567890', 1),
 ('Jane Smith', 'Clothing', 'T-shirt', '9876543210', 2),
